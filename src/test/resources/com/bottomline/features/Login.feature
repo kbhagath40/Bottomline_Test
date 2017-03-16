@@ -3,6 +3,7 @@ Feature: Verifying the login functionality
   As a customer
   I want to Enter user credentials
 
+  @login
   Scenario Outline: Test Authentication Section with valid and invalid Credentials
     Given I open "<browser>"
     When I navigate "login_url"
