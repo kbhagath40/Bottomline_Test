@@ -27,7 +27,7 @@ public class WebConnector {
 			try {
 				OR = new Properties();
 				ip = new FileInputStream(
-						System.getProperty("user.dir") + "/src/test/java/com/bottom/test/config/OR.properties");
+						System.getProperty("user.dir") + "/src/test/java/com/bottomline/config/OR.properties");
 				OR.load(ip);
 
 			} catch (Throwable t) {
